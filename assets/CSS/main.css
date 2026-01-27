@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+display: flex;
+gap: 232.5px;
+margin-left: 165px;
+
+}
+
+.menu ul{
+display: flex;
+list-style-type: none;
+gap: 60px;
+
+}
+
+.right-header ul{
+    
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
