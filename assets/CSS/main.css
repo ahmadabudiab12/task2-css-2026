@@ -7,7 +7,8 @@ box-sizing: border-box;
 .header{
 display: flex;
 gap: 232.5px;
-margin-left: 165px;
+margin: 21.84px 165px;
+
 
 }
 
@@ -23,4 +24,21 @@ gap: 60px;
     display: flex;
     list-style-type: none;
     gap: 24px;
+}
+
+.items{
+    display: flex;
+    margin-left: 165px;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.item{
+
+    text-align: center;
+}
+
+.items img{
+margin-bottom: 23px;
+
 }
