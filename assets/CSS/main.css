@@ -8,7 +8,7 @@ box-sizing: border-box;
 
 .container{
 
-    width: calc( 100% - 30% );
+    width: calc( 100% - 330px );
     margin: 0 auto;
     
 }
@@ -90,30 +90,7 @@ color: rgb(155, 113, 61);
 }
 
 
-@media screen and (min-width:0) and (max-width:1000px){
-    
-    .menu{
-        display: none;
-    }
-    .right-header{
 
-    display: none;
-}
-
-.menu-icon{
-
-    display: block;
-}
-}
-
-
-@media screen and (min-width:0) and (max-width:450px){
-
-
-
-
-    
-}
 
 .hero{
 
@@ -126,7 +103,7 @@ color: rgb(155, 113, 61);
 
 .items{
 
-    margin-top: 30px;
+    margin: 80px 0 109px 0 ;
 }
 
 .collection{
@@ -185,30 +162,225 @@ text-decoration-line: none;
 color: #3a3845;
 }
 
+.christmas .ch-row{
+
+display: flex;
+
+
+}
+
+.christmas .right-sec{
+display: flex;;
+align-items: center;
+justify-content: center;
+width: 50%;
+background-color: #F7F6F5;
+
+}
+
+.christmas .offer{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 15px;
+margin: 20px;
+
+
+
+}
+.christmas .offer h2{
+
+    font-size: 36px;
+
+}
+
+.christmas .offer p{
+
+font-size: 15px;
+}
+
+.christmas .offer a{
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.christmas-img{
+
+    width: 50%;
+}
+
+.christmas-img img{
+
+    width: 100%;
+}
+
+@media screen and (min-width:0) and (max-width:1000px){
+    
+    .container{
+
+    width: calc( 100% - 250px );
+    margin: 0 auto;
+    
+}
+    .menu{
+        display: none;
+    }
+    .right-header{
+
+    display: none;
+}
+
+.menu-icon{
+
+    display: block;
+}
+
+.christmas .offer h2{
+
+    font-size: 26px;
+
+}
+
+.christmas .offer p{
+
+font-size: 12px;
+}
+
+}
+
+
 
 
 @media screen and (min-width:0) and (max-width:920px){
 
+    .container{
+
+    width: calc( 100% - 150px );
+    margin: 0 auto;
+    
+}
 .item{
 
     width: calc((100% - 60px)/3);
 }
+
+.christmas .offer h2{
+
+    font-size: 20px;
+
+}
+
+.christmas .offer p{
+
+font-size: 10px;
+}
+
     
 }
 
 @media screen and (min-width:0) and (max-width:620px){
+.container{
 
+    width: calc( 100% - 100px );
+    margin: 0 auto;
+    
+}
 .item{
     width:calc((100% - 30px) / 2);
 }
-    
+.christmas .offer h2{
+
+    font-size: 15px;
+
+}
+
+.christmas .offer p{
+
+font-size: 10px;
+}
 }
 
 @media screen and (min-width:0) and (max-width:430px){
 
+    .container{
+
+    width: 100%;
+    margin: 0 auto;
+    
+}
 .item{
     width:calc(100%);
 }
+
+.container{
+    width: calc( 100% - 200px );
+}
+
+.christmas-img{
+
+  display: none;
+}
+
+.christmas .right-sec{
+
+    width: 100%;
+}
+}
+
+
+
+
+
+
+.best-seller{
+    background-color: #c7bcb1a6;
+}
+
+.best-seller{
+   
+    padding: 80px 0px;
     
 }
 
+.best-seller {
+    
+
+
+}
+.best-seller .cards{
+
+}
+
+.best-seller .card{
+   
+   
+}
+
+
+
+.best-seller .seller-img img{
+    
+
+}
+
+.best-seller .card-details{
+    
+
+}
+.best-seller .card-details h3{
+
+}
+.best-seller .card-details span{
+
+}
+.best-seller .card-details p{
+    width: 80%;
+
+}
+
+.best-seller .card-details a{
+
+}
